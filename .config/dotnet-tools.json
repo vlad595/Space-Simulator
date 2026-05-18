@@ -6,8 +6,19 @@
       "version": "3.8.4.1",
       "commands": [
         "mgcb"
-      ],
-      "rollForward": false
+      ]
+    },
+    "dotnet-mgcb-editor": {
+      "version": "3.8.4.1",
+      "commands": [
+        "mgcb-editor"
+      ]
+    },
+    "dotnet-mgcb-editor-windows": {
+      "version": "3.8.4.1",
+      "commands": [
+        "mgcb-editor-windows"
+      ]
     }
   }
 }

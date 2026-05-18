@@ -32,3 +32,4 @@ D:\MyGames\SpaceSim\SpaceSimulator\obj\Debug\net9.0\refint\SpaceSimulator.dll
 D:\MyGames\SpaceSim\SpaceSimulator\obj\Debug\net9.0\SpaceSimulator.pdb
 D:\MyGames\SpaceSim\SpaceSimulator\obj\Debug\net9.0\SpaceSimulator.genruntimeconfig.cache
 D:\MyGames\SpaceSim\SpaceSimulator\obj\Debug\net9.0\ref\SpaceSimulator.dll
+D:\MyGames\SpaceSim\SpaceSimulator\bin\Debug\net9.0\Content\GravityLens.xnb
