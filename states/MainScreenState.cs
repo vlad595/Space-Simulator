@@ -61,9 +61,9 @@ namespace SpaceSimulator.states
             float mouseU = (float)mouse.X / _graphicsDevice.Viewport.Width;
             float mouseV = (float)mouse.Y / _graphicsDevice.Viewport.Height;
 
-            _gravityLensEffect.Parameters["PlanetPos"].SetValue(new Vector2(mouseU, mouseV));
+            _gravityLensEffect.Parameters["BallPos"].SetValue(new Vector2(mouseU, mouseV));
             _gravityLensEffect.Parameters["Radius"].SetValue(0.1f);
-            _gravityLensEffect.Parameters["Strength"].SetValue(0.05f);
+            _gravityLensEffect.Parameters["Mass"].SetValue(0.1f);
             _gravityLensEffect.Parameters["AspectRatio"].SetValue((float)_graphicsDevice.Viewport.Width / _graphicsDevice.Viewport.Height);
 
             spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, SamplerState.LinearClamp, null, null, _gravityLensEffect);
